@@ -4,7 +4,11 @@ Bu klasör, Gymlife projesinin ilgili bir parçasını içerir. Aşağıda klas�
 
 ## Klasörün Amacı
 Kısaca bu klasörde hangi sorumlulukların bulunduğunu yazın:
-- Örn: "Bu klasör, uygulamanın egzersiz yönetimi ile ilgili bileşenlerini içerir (API, modeller, servisler ve bileşenler)."
+"bu projeler bir spor salonun web sitesi olarak tasarlandı."
+"C# .NetCore ile geliştirildi."
+"Apı ile iletişime gecerek  bilgileri gösteriyor."
+"Veri Tabanı Mssql kullanılmıştır."
+"Frontend kısmı html css js ve c# blozer kullanıldı."
 
 ## Hızlı Başlangıç
 1. Depoyu klonla:
