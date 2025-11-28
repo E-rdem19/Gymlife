@@ -3,7 +3,7 @@
 Bu klasör, Gymlife projesinin ilgili bir parçasını içerir. Aşağıda klasörün amacı, nasıl çalıştırılacağı ve içine nasıl katkıda bulunulacağına dair talimatlar yer almaktadır.
 
 ## Klasörün Amacı
-Kısaca bu klasörde hangi sorumlulukların bulunduğunu yazın:
+
 "bu projeler bir spor salonun web sitesi olarak tasarlandı.
 C# .NetCore ile geliştirildi.
 Apı ile iletişime gecerek  bilgileri gösteriyor.
