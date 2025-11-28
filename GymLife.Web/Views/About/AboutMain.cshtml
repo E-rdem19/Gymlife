@@ -1,0 +1,108 @@
+@{
+    ViewData["Title"] = "About Us";
+}
+@model GymLife.Web.Models.ModelClass
+
+    <!-- Breadcrumb Section Begin -->
+<section class="hero-section">
+        <div class="hs-slider owl-carousel">
+            @await Html.PartialAsync("/Views/Home_Panel/_Home_PanelPartial.cshtml", Model.Home_Panels)
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- ChoseUs Section Begin -->
+    <section class="choseus-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Neden bizi seçmelisiniz?</span>
+                        <h2>SINIRLARINIZI İLERİ TAŞIYIN</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                @await Html.PartialAsync("/Views/Information_Panel/_Information_PanelPartial.cshtml", Model.Information_Panels)
+            </div>
+        </div>
+    </section>
+    <!-- ChoseUs Section End -->
+
+    <!-- About US Section Begin -->
+    <section class="aboutus-section">
+        <div class="container-fluid">
+            <div class="row">
+                @await Html.PartialAsync("/Views/About/_AboutPartial.cshtml", Model.Abouts)
+            </div>
+        </div>
+    </section>
+    <!-- About US Section End -->
+
+    <!-- Team Section Begin -->
+     <section class="team-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="team-title">
+                        <div class="section-title">
+                            <span>Ekibimiz</span>
+                            <h2>UZMANLARLA ÇALIŞIN</h2>
+                        </div>
+                        <a href="#" class="primary-btn btn-normal appoinment-btn">Randevu al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="ts-slider owl-carousel">
+                    @Html.Partial("/Views/Instructor/_InstructorPartial.cshtml", Model.Instructors)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Banner Section Begin -->
+    <section class="banner-section set-bg" data-setbg="@Url.Content("~/img/banner-bg.jpg")">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="bs-text">
+                        <h2>registration now to get more deals</h2>
+                        <div class="bt-tips">Where health, beauty and fitness meet.</div>
+                        <a href="#" class="primary-btn  btn-normal">Appointment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section End -->
+
+    <!-- Testimonial Section Begin -->
+    <section class="testimonial-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Testimonial</span>
+                        <h2>Our cilent say</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="ts_slider owl-carousel">
+                @await Html.PartialAsync("_ContactPartial.cshtml",Model.Contacts)
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section End -->
+
+    <!-- Get In Touch Section Begin -->
+    <div class="gettouch-section">
+        <div class="container">
+            <div class="row">
+               @Html.Partial("/Views/Communication/_CommunicationPartial.cshtml", Model.Communications)
+            </div>
+        </div>
+    </div>

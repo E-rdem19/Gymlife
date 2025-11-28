@@ -1,0 +1,19 @@
+@model List<GymLife.Web.Models.Contact>
+@foreach (var item in Model)
+{
+                 <div class="ts_item">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <div class="ti_pic">
+                                <img src="@item.Resim" alt="">
+                            </div>
+                            <div class="ti_text">
+                                <p>@item.Message</p>
+                                <h5>@item.AD @item.Soyad</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+}

@@ -1,0 +1,17 @@
+@model List<GymLife.Web.Models.Instructor>
+@foreach (var item in Model){
+    <div class="col-lg-4 col-sm-6">
+                    <div class="ts-item set-bg" data-setbg="@item.Resim">
+                        <div class="ts_text">
+                            <h4>@item.AD @item.Soyad</h4>
+                            <span>@item.Rol</span>
+                            <div class="tt_social">
+                                <a href="@item.Facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="@item.Twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="@item.Youtube"><i class="fa fa-youtube-play"></i></a>
+                                <a href="@item.Instagram"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+}

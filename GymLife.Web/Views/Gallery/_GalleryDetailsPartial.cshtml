@@ -1,0 +1,6 @@
+@model List<GymLife.Web.Models.Gallery>
+@foreach (var item in Model){
+     <div class="gs-item grid-wide set-bg" data-setbg="@item.ImagePath">
+                <a href="@item.ImagePath" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+            </div>
+}

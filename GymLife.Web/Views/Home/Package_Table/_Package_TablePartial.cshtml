@@ -1,0 +1,21 @@
+@model List<GymLife.Web.Models.Package_Table>
+@foreach (var item in Model){
+     <div class="col-lg-4 col-md-8">
+                    <div class="ps-item">
+                        <h3>@item.Title</h3>
+                        <div class="pi-price">
+                            <h2>@item.Price</h2>
+                            <span>@item.Date Aylık</span>
+                        </div>
+                        <ul>
+                            <li>@item.Property1</li>
+                            <li>@item.Property2</li>
+                            <li>@item.Property3</li>
+                            <li>@item.Property4</li>
+                            <li>@item.Property5</li>
+                        </ul>
+                        <a href="#" class="primary-btn pricing-btn">Şimdi Kaydolun</a>
+                        <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a>
+                    </div>
+                </div>
+}

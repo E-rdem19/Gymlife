@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "Blog";
+}
+@model GymLife.Web.Models.ModelClass
+ <!-- Breadcrumb Section Begin -->
+      <section class="hero-section">
+        <div class="hs-slider owl-carousel">
+            @await Html.PartialAsync("/Views/Home_Panel/_Home_PanelPartial.cshtml", Model.Home_Panels)
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Blog Section Begin -->
+    <section class="blog-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 p-0">
+                    @Html.Partial("/Views/Blog/_BlogDetailsPartial.cshtml", Model.BlogDetails)
+                    
+                </div>
+                <div class="col-lg-4 col-md-8 p-0">
+                    <div class="sidebar-option">
+                        <div class="so-categories">
+                            <h5 class="title">Kategoriler</h5>
+                           <ul>
+                                @Html.Partial("/Views/Blog/_BlogListPartial.cshtml", Model.Branch)
+                            </ul>
+                        </div>
+                        <div class="so-latest">
+                            <h5 class="title">Latest posts</h5>
+                            @await Html.PartialAsync("/Views/Classes/_ImagePartial.cshtml", Model.Branch)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Get In Touch Section Begin -->
+     <div class="gettouch-section">
+        <div class="container">
+            <div class="row">
+               @Html.Partial("/Views/Communication/_CommunicationPartial.cshtml", Model.Communications)
+            </div>
+        </div>
+    </div>

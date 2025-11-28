@@ -1,0 +1,11 @@
+@model List<GymLife.Web.Models.Instructor>
+@foreach (var item in Model){
+    <div class="col-lg-4">
+    <div class="ts-item set-bg" data-setbg="@item.Resim">
+        <div class="ts_text">
+            <h4>@item.AD @item.Soyad</h4>
+            <span>@item.Rol</span>
+        </div>
+    </div>
+</div>
+}

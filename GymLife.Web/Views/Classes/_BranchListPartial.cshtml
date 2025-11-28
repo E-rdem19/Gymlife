@@ -1,0 +1,11 @@
+@model List<GymLife.Web.Models.Branch>
+<ul>
+@foreach (var item in Model)
+{
+    <li>
+        <a asp-controller="Classes" asp-action="Index" asp-route-category="@item.BranchID">
+            @item.BranchName
+        </a>
+    </li>
+}
+</ul>

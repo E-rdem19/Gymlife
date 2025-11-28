@@ -1,0 +1,50 @@
+@model List<GymLife.Web.Models.AboutUS>
+@foreach (var item in Model)
+{
+     <div class="col-lg-6 p-0">
+                    <div class="about-video set-bg" data-setbg="@item.Resim">
+                        <a href="@item.VideoURL" class="play-btn video-popup"><i
+                                class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-0">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <span>Hakkımızda</span>
+                            <h2>Ne yaptık</h2>
+                        </div>
+                        <div class="at-desc">
+                            <p>@item.Description</p>
+                        </div>
+                        <div class="about-bar">
+                            <div class="ab-item">
+                                <p>@item.Education1</p>
+                                <div id="bar1" class="barfiller">
+                                    <span class="fill" data-percentage="@item.Puan1"></span>
+                                    <div class="tipWrap">
+                                        <span class="tip"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ab-item">
+                                <p>@item.Education2</p>
+                                <div id="bar2" class="barfiller">
+                                    <span class="fill" data-percentage="@item.Puan2"></span>
+                                    <div class="tipWrap">
+                                        <span class="tip"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ab-item">
+                                <p>@item.Education3</p>
+                                <div id="bar3" class="barfiller">
+                                    <span class="fill" data-percentage="@item.Puan3"></span>
+                                    <div class="tipWrap">
+                                        <span class="tip"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+}

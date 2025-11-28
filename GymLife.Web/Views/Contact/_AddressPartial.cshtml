@@ -1,0 +1,20 @@
+@model List<GymLife.Web.Models.Communication>
+@foreach (var item in Model){
+    <div class="contact-widget">
+                        <div class="cw-text">
+                            <i class="fa fa-map-marker"></i>
+                            <p>@item.Address</p>
+                        </div>
+                        <div class="cw-text">
+                            <i class="fa fa-mobile"></i>
+                            <ul>
+                                <li>@item.Phone</li>
+                                <li>@item.Phone1</li>
+                            </ul>
+                        </div>
+                        <div class="cw-text email">
+                            <i class="fa fa-envelope"></i>
+                            <p>@item.Mail</p>
+                        </div>
+                    </div>
+}

@@ -1,0 +1,117 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model GymLife.Web.Models.ModelClass
+
+
+ <section class="hero-section">
+        <div class="hs-slider owl-carousel">
+            @await Html.PartialAsync("/Views/Home_Panel/_Home_PanelPartial.cshtml", Model.Home_Panels)
+        </div>
+    </section>
+<!-- Hero Section End -->
+<section class="choseus-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Neden bizi seçmelisiniz?</span>
+                        <h2>SINIRLARINIZI İLERİ TAŞIYIN</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                @await Html.PartialAsync("/Views/Information_Panel/_Information_PanelPartial.cshtml", Model.Information_Panels)
+            </div>
+        </div>
+    </section>
+
+<!-- Classes Section -->
+<section class="classes-section spad">
+    <div class="container">
+        <div class="row">
+            @Html.Partial("/Views/Service/_ServicePartial.cshtml",Model.Services)
+        </div>
+    </div>
+</section>
+
+<!-- Banner Section -->
+<section class="banner-section set-bg" data-setbg="@Url.Content("~/img/banner-bg.jpg")">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="bs-text">
+                    <h2>registration now to get more deals</h2>
+                    <div class="bt-tips">Where health, beauty and fitness meet.</div>
+                    <a href="#" class="primary-btn btn-normal">Appointment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Banner Section End -->
+
+    <!-- Pricing Section Begin -->
+    <section class="pricing-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Planımız</span>
+                        <h2>Fiyatlandırma planınızı seçin</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                @Html.Partial("/Views/Home/Package_Table/_Package_TablePartial.cshtml", Model.Package_Tables)
+            </div>
+        </div>
+    </section>
+    <!-- Pricing Section End -->
+
+    <!-- Gallery Section Begin -->
+    <div class="gallery-section">
+        <div class="gallery">
+            <div class="grid-sizer"></div>
+        @Html.Partial("/Views/Gallery/_GalleryPartial.cshtml", Model.Galleries)
+        </div>
+    </div>
+    <!-- Gallery Section End -->
+
+    <!-- Team Section Begin -->
+    <section class="team-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="team-title">
+                        <div class="section-title">
+                            <span>Ekibimiz</span>
+                            <h2>UZMANLARLA ÇALIŞIN</h2>
+                        </div>
+                        <a href="#" class="primary-btn btn-normal appoinment-btn">Randevu al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="ts-slider owl-carousel">
+                    @Html.Partial("/Views/Instructor/_InstructorPartial.cshtml", Model.Instructors)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Get In Touch Section Begin -->
+    <div class="gettouch-section">
+        <div class="container">
+            <div class="row">
+               @Html.Partial("/Views/Communication/_CommunicationPartial.cshtml", Model.Communications)
+            </div>
+        </div>
+    </div>
+    <!-- Get In Touch Section End -->
+
+    <!-- Footer Section Begin -->
+  

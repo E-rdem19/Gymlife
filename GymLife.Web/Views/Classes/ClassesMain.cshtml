@@ -1,0 +1,64 @@
+@{
+    ViewData["Title"] = "Classes";
+}
+@model GymLife.Web.Models.ModelClass
+
+  <section class="hero-section">
+        <div class="hs-slider owl-carousel">
+            @await Html.PartialAsync("/Views/Home_Panel/_Home_PanelPartial.cshtml", Model.Home_Panels)
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Class Details Section Begin -->
+    <section class="class-details-section spad">
+        <div class="container">
+            <div class="row">
+                @Html.Partial("/Views/Classes/_BranchCategoryPartial.cshtml", Model.BranchCategories)
+                <div class="col-lg-4 col-md-8">
+                    <div class="sidebar-option">
+                        <div class="so-categories">
+                            <h5 class="title">Categories</h5>
+                            <ul>
+                                @Html.Partial("/Views/Classes/_BranchListPartial.cshtml", Model.Branch)
+                            </ul>
+                        </div>
+                        <div class="so-latest">
+                            <h5 class="title">Latest posts</h5>
+                            @await Html.PartialAsync("/Views/Classes/_ImagePartial.cshtml", Model.Branch)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Class Details Section End -->
+
+    <!-- Class Timetable Section Begin -->
+    <section class="class-timetable-section class-details-timetable spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="class-details-timetable_title">
+                        <h5>Classes timetable</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    @await Html.PartialAsync("/Views/Classes/_ProgramPartial.cshtml", Model.Programs)
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Class Timetable Section End -->
+
+    <!-- Get In Touch Section Begin -->
+     <div class="gettouch-section">
+        <div class="container">
+            <div class="row">
+               @Html.Partial("/Views/Communication/_CommunicationPartial.cshtml", Model.Communications)
+            </div>
+        </div>
+    </div>
+  

@@ -1,0 +1,17 @@
+@model List<GymLife.Web.Models.BlogDetails>
+@foreach ( var item in Model){
+    <div class="blog-item">
+                        <div class="bi-pic">
+                            <img src="@item.ImagePath" alt="">
+                        </div>
+                        <div class="bi-text">
+                            <h5 style="color:white">@item.Title</h5>
+                            <ul>
+                                <li>@item.AD @item.Soyad</li>
+                                <li>@item.Date.ToString("MMM dd, yyyy")</li>
+                                <li>@item.Like  Beğeni</li>
+                            </ul>
+                            <p>@item.Description</p>
+                        </div>
+                    </div>
+}

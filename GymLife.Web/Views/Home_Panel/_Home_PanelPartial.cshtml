@@ -1,0 +1,17 @@
+@model List<GymLife.Web.Models.Home_Panel>
+
+@foreach(var item in Model)
+{
+    <div class="hs-item set-bg" data-setbg="@item.Resim">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-6">
+                            <div class="hi-text">
+                                <h1 style="font-size:40px;">@item.Mesaj</h1>
+                                <a href="#" class="primary-btn">Get info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+}

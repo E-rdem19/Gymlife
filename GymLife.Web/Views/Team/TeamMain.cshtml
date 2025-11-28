@@ -1,0 +1,42 @@
+@{
+    ViewData["Title"] = "Our Team";
+}
+@model GymLife.Web.Models.ModelClass
+<!-- Breadcrumb Section Begin -->
+    <section class="hero-section">
+        <div class="hs-slider owl-carousel">
+            @await Html.PartialAsync("/Views/Home_Panel/_Home_PanelPartial.cshtml", Model.Home_Panels)
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Team Section Begin -->
+    <section class="team-section team-page spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="team-title">
+                        <div class="section-title">
+                            <span>Ekibimiz</span>
+                            <h2>UZMANLARLA ÇALIŞIN</h2>
+                        </div>
+                        <a href="#" class="primary-btn btn-normal appoinment-btn">Randevu Al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                @await Html.PartialAsync("/Views/Team/_TeamDetailsPartial.cshtml", Model.Instructors)
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Get In Touch Section Begin -->
+     <div class="gettouch-section">
+        <div class="container">
+            <div class="row">
+               @Html.Partial("/Views/Communication/_CommunicationPartial.cshtml", Model.Communications)
+            </div>
+        </div>
+    </div>
+    <!-- Get In Touch Section End -->

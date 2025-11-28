@@ -1,0 +1,177 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GymLife.Web
+build_property.RootNamespace = GymLife.Web
+build_property.ProjectDir = /Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/About/AboutMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QWJvdXRNYWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/About/_AboutPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0Fib3V0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/About/_ContactPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0NvbnRhY3RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Blog/BlogMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QmxvZ01haW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Blog/_BlogDetailsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0Jsb2dEZXRhaWxzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Blog/_BlogListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0Jsb2dMaXN0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/BMI/BMIMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Qk1JTWFpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Classes/ClassesMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q2xhc3Nlc01haW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Classes/_BranchCategoryPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0JyYW5jaENhdGVnb3J5UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Classes/_BranchListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0JyYW5jaExpc3RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Classes/_ImagePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0ltYWdlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Classes/_ProgramPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1Byb2dyYW1QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Communication/_CommunicationPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0NvbW11bmljYXRpb25QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Contact/ContactMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29udGFjdE1haW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Contact/_AddressPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0FkZHJlc3NQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Gallery/GalleryMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R2FsbGVyeU1haW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Gallery/_GalleryDetailsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0dhbGxlcnlEZXRhaWxzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Gallery/_GalleryPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0dhbGxlcnlQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Home/BmiCalculator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Qm1pQ2FsY3VsYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Home/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RXJyb3I0MDQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Home/Package_Table/_Package_TablePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1BhY2thZ2VfVGFibGVQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Home_Panel/_Home_PanelPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0hvbWVfUGFuZWxQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Information_Panel/_Information_PanelPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0luZm9ybWF0aW9uX1BhbmVsUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Instructor/_InstructorPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0luc3RydWN0b3JQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Service/ServiceMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VydmljZU1haW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Service/_ServiceDetailPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1NlcnZpY2VEZXRhaWxQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Service/_ServicePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1NlcnZpY2VQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Team/TeamMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGVhbU1haW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Team/_TeamDetailsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1RlYW1EZXRhaWxzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/erdemertekin/Desktop/GYMLİFE/GymLife.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-pzom1eejwa

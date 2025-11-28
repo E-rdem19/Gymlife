@@ -1,0 +1,65 @@
+@model List<GymLife.Web.Models.Program>
+
+@{
+    var days = new List<string> { "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar" };
+
+    // Saatleri parse ederek sıralıyoruz
+    var times = Model
+        .Select(x => x.Time?.Trim())
+        .Where(x => !string.IsNullOrEmpty(x))
+        .Distinct()
+        .OrderBy(x => TimeSpan.Parse(x.Split('-')[0].Trim())) // başlangıç saatine göre sırala
+        .ToList();
+
+    var scheduleDict = Model
+        .Where(x => !string.IsNullOrEmpty(x.Day) && !string.IsNullOrEmpty(x.Time))
+        .ToDictionary(
+            x => (Day: x.Day.Trim().ToLower(), Time: x.Time.Trim()),
+            x => x
+        );
+}
+
+<div class="class-timetable details-timetable">
+    <table class="table table-bordered text-center">
+        <thead>
+            <tr>
+                <th>Saat</th>
+                @foreach (var day in days)
+                {
+                    <th>@day</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var time in times)
+            {
+                <tr>
+                    <td class="class-time">@time</td>
+                    @foreach (var day in days)
+                    {
+                        var key = (Day: day.ToLower(), Time: time);
+                        if (scheduleDict.TryGetValue(key, out var cls))
+                        {
+                            <td class="hover-dp ts-meta dark-bg" data-tsmeta="workout">
+                                <h5>@cls.Name</h5>
+                                <span>@(cls.AD ?? "") @(cls.Soyad ?? "")</span><br />
+                                @if (!string.IsNullOrEmpty(cls.ServiceName))
+                                {
+                                    <span>@cls.ServiceName</span>
+                                }
+                                @if (!string.IsNullOrEmpty(cls.Description))
+                                {
+                                    <div><span>@cls.Description</span></div>
+                                }
+                            </td>
+                        }
+                        else
+                        {
+                            <td class="blank-td">-</td>
+                        }
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

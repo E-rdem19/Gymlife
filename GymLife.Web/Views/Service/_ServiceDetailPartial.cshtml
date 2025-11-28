@@ -1,0 +1,15 @@
+@model List<GymLife.Web.Models.Service>
+@foreach (var item in Model){
+
+      <div class="col-lg-4 order-lg-1 col-md-6 p-0">
+                    <div class="ss-pic">
+                        <img src="@item.Resim" alt="">
+                    </div>
+                     <div class="ss-text">
+                        <h4>@item.ServiceName</h4>
+                        <p>@item.longDescription</p>
+                        
+                    </div>
+                </div>
+               
+}

@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "Gallery";
+}
+@model GymLife.Web.Models.ModelClass
+<!-- Breadcrumb Section Begin -->
+   <section class="hero-section">
+        <div class="hs-slider owl-carousel">
+            @await Html.PartialAsync("/Views/Home_Panel/_Home_PanelPartial.cshtml", Model.Home_Panels)
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Gallery Section Begin -->
+    <div class="gallery-section gallery-page">
+        <div class="gallery">
+            <div class="grid-sizer"></div>
+            
+            @Html.Partial("/Views/Gallery/_GalleryDetailsPartial.cshtml", Model.Galleries)
+        </div>
+    </div>
+    <!-- Gallery Section End -->
+
+    <!-- Get In Touch Section Begin -->
+     <div class="gettouch-section">
+        <div class="container">
+            <div class="row">
+               @Html.Partial("/Views/Communication/_CommunicationPartial.cshtml", Model.Communications)
+            </div>
+        </div>
+    </div>
+    <!-- Get In Touch Section End -->

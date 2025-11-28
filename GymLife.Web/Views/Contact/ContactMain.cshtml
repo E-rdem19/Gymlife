@@ -1,0 +1,44 @@
+@{
+    ViewData["Title"] = "Contact Us";
+}
+@model GymLife.Web.Models.ModelClass
+ <!-- Breadcrumb Section Begin -->
+     <section class="hero-section">
+        <div class="hs-slider owl-carousel">
+            @await Html.PartialAsync("/Views/Home_Panel/_Home_PanelPartial.cshtml", Model.Home_Panels)
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Contact Section Begin -->
+    <section class="contact-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title contact-title">
+                        <span> Bize Ulaşın </span>
+                        <h2>İLETİŞİME GEÇİN</h2>
+                    </div>
+                    @Html.Partial("/Views/Contact/_AddressPartial.cshtml", Model.Communications)
+                </div>
+                <div class="col-lg-6">
+                    <div class="leave-comment">
+                        <form action="#">
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Website">
+                            <textarea placeholder="Comment"></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6024.402805602216!2d34.79782684663498!3d40.977070487305035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1761225943511!5m2!1str!2str"
+                 width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+   

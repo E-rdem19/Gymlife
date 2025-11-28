@@ -1,0 +1,48 @@
+@model List<GymLife.Web.Models.BranchCategory>
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-8">
+            <div class="class-details-text">
+                <div class="cd-pic">
+                    <img src="@item.ResimURL" alt="">
+                </div>
+                <div class="cd-text">
+                    <div class="cd-single-item">
+                        <h3>@item.BranchName</h3>
+                        <p>@item.Description</p>
+                    </div>
+                </div>
+                <div class="cd-trainer">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="cd-trainer-pic">
+                                <img src="@item.Resim" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cd-trainer-text">
+                                <div class="trainer-title">
+                                    <h4>@item.AD @item.Soyad</h4>
+                                    <span>@item.BranchName</span>
+                                </div>
+                                <div class="trainer-social">
+                                    <a href="@item.Facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="@item.Twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="@item.Youtube"><i class="fa fa-youtube-play"></i></a>
+                                    <a href="@item.Instagram"><i class="fa fa-instagram"></i></a>
+                                </div>
+                                <p>@item.Aciklama</p>
+                                <ul class="trainer-info">
+                                    <li><span>Yaş</span>@item.Yas</li>
+                                    <li><span>Telefon</span>@item.Telefon</li>
+                                    <li><span>E-Posta</span>@item.Email</li>
+                                    <li><span>Branşı</span>@item.BranchName</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    
